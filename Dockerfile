@@ -1,11 +1,11 @@
 # Python runtime
-FROM python:3.12-slim
+FROM python:3.14.0b4-slim-bullseye
 
 # Set working directory
 WORKDIR /app
 
 # Copy content
-COPY ./app/. /app
+COPY . /app
 
 RUN pip install flask
 

@@ -19,9 +19,9 @@ This demo is based on a demo video from [MadeForCloud](https://www.youtube.com/w
 >docker build --pull --rm -f ".\Dockerfile" -t container-app-demo:latest "."
 
 ### Tag the image
->docker tag container-app-demo mybesttoolstestacr01.azurecr.io/container-app-demo:v1
+>docker tag container-app-demo mybesttoolstestacr01.azurecr.io/container-app-demo:v4
 
 ### Push the image to your container library
->docker push mybesttoolstestacr01.azurecr.io/container-app-demo:v1
+>docker push mybesttoolstestacr01.azurecr.io/container-app-demo:v4
 
 

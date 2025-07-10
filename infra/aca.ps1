@@ -1,6 +1,6 @@
 $resourceGroupName = "rg-flask"
 $acrName = "mybesttoolstestacr01"
-$acrImage = "$acrName.azurecr.io/container-app-demo:v3"
+$acrImage = "$acrName.azurecr.io/container-app-demo:v4"
 $location = "westus2"
 $containerAppEnv = "flask-python-env"
 $containerAppName = "containerwebapp01"
